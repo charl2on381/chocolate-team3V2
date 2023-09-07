@@ -1,11 +1,9 @@
 // Swiper for reviews
 const reviewsSwiper = new Swiper('.slide-container', {
+
   slidesPerView: 1,
-  // slidesPerGroup: 2,
   spaceBetween: 28,
-  // centerInsufficientSlides: true,
-  // centeredSlides: true,
-  // centeredSlidesBounds: true,
+ 
   breakpoints: {
     768: {
       slidesPerView: 2,
@@ -21,6 +19,9 @@ const reviewsSwiper = new Swiper('.slide-container', {
     clickable: true,
   },
 });
+
+// Our Products
+
 var swiper = new Swiper('.mySwiper', {
   slidesPerView: 1,
   spaceBetween: 18,
@@ -46,4 +47,5 @@ var swiper = new Swiper('.mySwiper', {
       width: 1136,
     },
   },
+
 });
